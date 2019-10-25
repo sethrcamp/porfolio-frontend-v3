@@ -1,0 +1,11 @@
+.resume {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  iframe {
+    width: 90vw;
+    height: calc(80vw * (12.5 / 9));
+    margin-top: 20px;
+  }
+}

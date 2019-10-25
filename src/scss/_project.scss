@@ -1,0 +1,75 @@
+.project, .job {
+  flex: 1;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+    "title title"
+    "info image";
+
+  h2 {
+    grid-area: title;
+    font-size: 30pt;
+    font-family: $primaryFont;
+    margin-bottom: 30px;
+  }
+
+  .project-info {
+    grid-area: info;
+
+    >p {
+      font-family: $primaryFont;
+      font-size: 10pt;
+      line-height: 35px;
+      font-weight: 300;
+      padding-bottom: 50px;
+    }
+  }
+
+
+  .project-image {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    img {
+      grid-area: image;
+      width: 90%;
+      margin:0 5%;
+    }
+  }
+
+//  display: flex;
+//  flex-direction: row;
+//  align-items: flex-start;
+//  justify-content: space-between;
+//  max-height: calc(100% - 5px);
+//  width: calc(100% - 60px);
+  margin-left: 60px;
+//  padding: 15px;
+//  overflow-y: scroll;
+//  border: solid 3px $orange;
+//  box-shadow: 5px 5px 1px $darkGray;
+//
+//  .project-info {
+//    height: inherit;
+//    display: flex;
+//    flex-direction: column;
+//    align-items: flex-start;
+//    justify-content: flex-start;
+//    flex: 2
+//
+//  }
+//
+//
+//
+//  img {
+//    height: 200px;
+//    width: 200px;
+//  }
+}
+
+.job {
+  grid-template-columns: 70% 30%;
+
+}

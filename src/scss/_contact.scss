@@ -1,0 +1,154 @@
+.contact {
+  //min-height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  form {
+    width: 50vw;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 50px 0;
+
+    div, .submit {
+      margin: 10px;
+    }
+
+    div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      width: calc(50vw - 20px);
+      min-width: 380px;
+
+      label {
+        width: 75px;
+        font-family: $primaryFont;
+        font-size: 17px;
+      }
+
+      textarea, input {
+        width: calc(25vw - 10px) !important;
+        min-width: 275px;
+      }
+
+      input {
+        height: 30px;
+        //background-color: $lightGray;
+        border: 5px solid $orange;
+        border-radius: 100px;
+        font-size: 17px;
+        padding: 0 10px;
+
+        &::placeholder {
+          //color: $selectedGray;;
+          margin-left: 10px;
+        }
+
+        &:focus {
+          //box-shadow: 0 0 25px white !important;
+          outline-offset: 0 !important;
+          outline: none !important;
+          border: 5px solid $orange !important;
+        }
+      }
+
+      textarea {
+        resize: none;
+        height: 150px !important;
+        border: 5px solid $orange;
+        border-radius: 25px;
+        font-size: 17px;
+        padding: 10px;
+
+        &::placeholder {
+          //color: $selectedGray;
+          margin-left: 10px;
+        }
+
+        &:focus {
+          //box-shadow: 0 0 25px white !important;
+          outline-offset: 0 !important;
+          outline: none !important;
+          border: 5px solid $orange !important;
+        }
+      }
+
+      .emptyField{
+        box-shadow: 0 0 30px red;
+      }
+    }
+
+    .submit {
+      height: 30px;
+      width: 7vw;
+      min-width: 75px;
+      background-color: $orange;
+      color: white;
+      font-family: $primaryFont;
+      font-size: 15px;
+      border-radius: 100px;
+      border: none !important;
+
+      &:focus {
+        border: none !important;
+        //box-shadow: 0 0 25px white !important;
+        outline-offset: 0 !important;
+        outline: none !important;
+      }
+
+      &:active {
+        transform: scale(.9);
+      }
+    }
+  }
+  .contact-info {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+
+    h2 {
+      font-family: $primaryFont;
+      font-size: 40px;
+      margin: 10px;
+    }
+
+    span {
+      font-family: $primaryFont;
+      font-size: 30px;
+      margin: 10px;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 0;
+      li {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a {
+          img {
+            height: 5vh;
+            padding: 10px;
+          }
+        }
+      }
+    }
+  }
+}

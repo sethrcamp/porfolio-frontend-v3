@@ -1,0 +1,102 @@
+header {
+  //height: 12vh;
+  width: calc(100vw - 4.5vh);
+  //position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  background-color: $orange;
+  margin: 4.5vh 0 4.5vh 4.5vh;
+  .logo-wrapper{
+    background-color: $darkGray;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 5vh;
+    margin: 0 0 0 -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //z-index: 2;
+    border: solid 2px white;
+    img {
+      height: 5vh;
+      padding: 0 0 5px 0;
+    }
+  }
+
+  .my-name {
+    text-decoration: none;
+  }
+
+  span {
+    font-family: $primaryFont;
+    font-size: 18pt;
+    padding: 0 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+  nav {
+    //background-color: $orange;
+    //height: 7.5vh;
+    //flex: 1;
+    width: calc(100vw - 6vh);
+    height: 100%;
+    //position: fixed;
+    //right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 100%;
+      //margin: 0;
+      //height: 7.5vh;
+      //padding: 0 0 0 10vh;
+      li {
+        margin: 0 10px;
+        height: 100%;
+    //    flex-grow: 1;
+    //    height: 7.5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a {
+          text-decoration: none;
+          color: white;
+          padding: 0 7px;
+          font-size: 12pt;
+          height: 100%;
+          line-height: 54px;
+    //      width: 100%;
+    //      text-align: center;
+    //      transition: .3s;
+          font-family: $primaryFont;
+
+        }
+        &:hover {
+          transform: scale(1.1);
+          transition: .3s;
+        }
+
+        .selected {
+          position: relative;
+          &:before {
+            position: absolute;
+            left: -2px;
+            content: "■";
+          }
+          &:after {
+            position: absolute;
+            content: "■";
+          }
+        }
+      }
+    }
+  }
+}

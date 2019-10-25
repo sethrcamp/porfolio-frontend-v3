@@ -1,0 +1,43 @@
+.about {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+          "title title"
+          "image info";
+
+
+  * {
+    display: flex;
+    align-items: center;
+  }
+
+
+  h1 {
+    grid-area: title;
+    font-family: $primaryFont;
+    margin: 25px;
+    justify-content: center;
+  }
+
+  div {
+    grid-area: image;
+    justify-content: flex-end;
+  }
+
+  p {
+    grid-area: info;
+    margin: 5%;
+    justify-content: flex-start;
+    width: calc(60vh * (1091 / 1635));
+    font-family: $secondaryFont;
+    font-size: 14pt;
+  }
+
+  img {
+    max-height: 60vh;
+    min-height: 400px;
+    margin: 5%;
+
+  }
+}

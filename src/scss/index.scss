@@ -1,0 +1,37 @@
+//variables
+$darkGray: #808080;
+$mediumGray: #999999;
+$lightGray: #AAAAAA;
+$selectedGray: #D3D3D3;
+$orange: #F5A531;
+$white: #FFFFFF;
+
+$primaryFont: 'Encode Sans Condensed', sans-serif;
+$secondaryFont: 'Cairo', sans-serif;
+
+//imports
+@import "header";
+@import "footer";
+@import "app";
+@import "resume";
+@import "contact";
+@import "projects";
+@import "project";
+@import "selectableList";
+@import "items";
+@import "about";
+
+////index
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p, h2, h3 {
+  cursor: default;
+}
+
+
+ul {
+  list-style: none;
+}
