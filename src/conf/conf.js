@@ -1,4 +1,4 @@
-export const DEVELOPMENT_MODE = true;
+export const DEVELOPMENT_MODE = false;
 
 export const LOCAL_BASE_URL = "http://localhost:8888/portfolio/portfolio-backend/api/";
 export const SERVER_BASE_URL = "https://sethrcamp.com/";

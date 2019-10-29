@@ -34,7 +34,7 @@
       }
     ],
     "description": "The Digital Corps is a student-based digital production group based out of Ball State University. The Corps is divided into six teams each lead by a faculty member: design, development, video, communication, user experience, and project management. These teams work together to create innovative solutions to our clients problems. Clients, while often through the University, extend outward into the community, and further into the state.<br><br> My role as a development team member was to facilitate development solutions to our clients problems. As an Apprentice, my goal was to sharpen my skills in development while working on projects. As a Specialist, I was able to hone my skills as a backend and API developers, along with mentoring my peers. As a Master, my goal is to lead The Corps as a whole. For the last two years, I have also been a Junior Project Manager, where I have been able to lead teams of students, and meet face to face with clients.",
-    "image": "http://localhost:8888/portfolio/portfolio-frontend-v3/src/assets/images/corps-male-black.png"
+    "image": "https://sethrcamp.com/assets/images/corps-male-black.png"
   },{
     "name": "Crew Member",
     "employer": [
@@ -56,7 +56,7 @@
       }
     ],
     "description": "McDonald’s was my first employer. I spent a year at the local McDonald’s in my hometown. While there, I did every job that there was, aside from management. Aside from flipping burgers and dropping fries, I trained new crew members, and was involved in efforts to implement change in the workplace for better efficiency and customer satisfaction.",
-    "image": "http://localhost:8888/portfolio/portfolio-frontend-v3/src/assets/images/McDonalds_Logo.png"
+    "image": "https://sethrcamp.com/assets/images/McDonalds_Logo.png"
   },{
     "name": "Volunteer Cashier",
     "employer": [
@@ -78,6 +78,6 @@
       }
     ],
     "description": "For several years, during Summers and breaks, I would volunteer my time as a cashier at the IU Health Bloomington Hospital Gift shop. Over my time there, I volunteered over 500 hours. Typical activities for the job were cashiering, stocking, inventorying, and assisting customers.",
-    "image": "http://localhost:8888/portfolio/portfolio-frontend-v3/src/assets/images/iuhealth.png"
+    "image": "https://sethrcamp.com/assets/images/iuhealth.png"
   }
 ]

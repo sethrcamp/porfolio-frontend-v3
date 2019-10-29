@@ -2,7 +2,7 @@
   {
     "name": "Innovate WithIN",
     "description": "Innovate WithIN is a full service platform designed to accompany an in person, state-wide, high school pitch competition and middle school ideation workshop series. The platform, completely written from scratch, replaces the former outdated website and completely automates every portion of the process for students, chaperones, and admins. Approximately 85% of the sites content is dynamic, changing day-to-day and year-to-year based on the settings and data maintained by the admin panel. The list of features, explained below, are expansive, making this one of the largest, and most well received projects I have ever been apart of.<br><br> In total, the database has over 50 tables and views, the backend has over 100 endpoints, and the frontend has over 85 react components, all of which was created by a team of 3 developers, and minimal assistance from staff members. <br><br> Students can use the platform to create a profile, obtain guardian approval for their participation in the competition, create and manage teams, and to submit their pitch for adjudication. <br><br> Judges in the system can then view students pitches from the admin panel where they decide whether or not the pitch moves on to the in-person regional competition. At each regional competition, a winner and a runner up are decided. The winner moves directly on to the state competition, and the runner up is put in the wildcard voting system.<br><br> The Wildcard Voting System works automatically once a pitch has been marked as a wildcard. The system allows a user to vote once per day for their favorite pitch. To prevent spam voting, the system uses fingerprinting combined with recaptcha to reduce the risk of bot voting, and an individual voting multiple times. At the end of the wildcard period, the top two teams move onto the state competition, where a final winner is decided.<br><br>  The site, on top of the whole process, works as a content management system for photos and videos taken during the competitions. The videos can be viewed on the site, as well as information on past winners.",
-    "image": "http://localhost:8888/portfolio/portfolio-frontend-v3/src/assets/images/iw-logo-full-blue.svg",
+    "image": "https://sethrcamp.com/assets/images/iw-logo-full-blue.svg",
     "clients": [
       {
         "name": "Indiana Economic Development Corporation",
@@ -41,7 +41,7 @@
   },{
     "name": "Equipment Checkout",
     "description": "The Equipment Checkout System was built for internal use at the Digital Corps. The System is comprised of five total repositories and is a full service solution that completely automated the once paper-only system, allowing students to create reservations, and check out various pieces of equipment. The system is also completely integrated with Slack, so that admins can review reservations, and users can be notified of any important events. The Equipment Checkout System is an excellent example of one of the full stack solutions I have worked on.<br><br> The system is comprised of three frontends all written in Angular.js. The Scheduler frontend allows users to create new reservations or update existing ones. By utilizing a drag and drop calendar, users can select a time, and add items to their reservation. The system keeps track of what items or kits are available at what times, and differentiates between personal and official reservations. The Scanner frontend is responsible for allowing users to scan out and scan in their items when there reservation time slot is open. Finally, the Admin Panel allows admins to create or modify kits and items, as well are search through reservations and monitor the overall state of the system.<br><br>   The backends of the system are split in two. The main backend is written in PHP and utilizes the Slim and PDO libraries. It is responsible for all of the complex logic required to determine eligibility of items, managing the state of all reservations, detecting late reservations, sending notifications and all other functionality for the daily operations of the system. The second backend, using Node.js and Swagger routing, is solely dedicated to managing Slack messaging.",
-    "image": "http://localhost:8888/portfolio/portfolio-frontend-v3/src/assets/images/equip_checkout_mac_150.png",
+    "image": "https://sethrcamp.com/assets/images/equip_checkout_mac_150.png",
     "clients": [
       {
         "name": "Ball State University Digital Corps",
@@ -73,7 +73,7 @@
   },{
     "name": "Blue Roots Water Project",
     "description": "The Water Project was a joint venture with The Digital Corps, a group of graduate students from the Emerging Media Design and Development program called The Blue Roots Project, and a non-for-profit called The Circle of Blue. The purpose of the web-based platform is to increase awareness of the world-wide water crisis. The platform utilizes React.js, as well as many JS libraries in order to provide an interactive map, and content management system. This project is a prime example of my work with Component-based organization, and data manipulation.<br><br> My role on this project initially was to meet with the clients and discuss the feasibility of their initial designs for a web-based interactive experience. Through these direct meetings, the The Blue Roots crew were able to refine their vision for the site to on that was both visually appealing and functional interactive. As developers, the team from the Digital Corps then had to research and implement libraries and data protocols in order to assist with some of the more complicated features, such as the interactive map, geolocation services, and geofencing.<br><br> On top of these libraries, I organized the website, along with its data into an efficient component system. While efficiency and organization is a priority on any project, it was essential that the data manipulation on this website was as efficient as possible, as the browser’s resources were already being spread thin in order to render the map.",
-    "image": "http://localhost:8888/portfolio/portfolio-frontend-v3/src/assets/images/water_macbook_tight.png",
+    "image": "https://sethrcamp.com/assets/images/water_macbook_tight.png",
     "clients": [
       {
         "name": "EMDD Blue Roots Project",
@@ -106,7 +106,7 @@
   },{
     "name": "Personal Portfolio Website",
     "description": "This very website was created with React.js, as well as PHP backend, and content management system. Everything about the site, including server administration, git implementation, and all of the code, was done from scratch, and without the assistance of any other people. All of the code for this site can be found on my personal github page, which can be found at the bottom of the page.",
-    "image": "http://localhost:8888/portfolio/portfolio-frontend-v3/src/assets/images/filler image.jpg",
+    "image": "https://sethrcamp.com/assets/images/filler image.jpg",
     "clients": [],
     "skills": [
       {
@@ -124,7 +124,7 @@
   },{
     "name": "Career Center Certifications",
     "description": "The Career Center Certifications System was created for the Ball State University Career Center, and completely automates the process for both admins and students partaking in their intern and career ready programs. The system uses React.js for both frontends and PHP for the backend. Features include statistic reporting for admins, organizational tools for the admin approval process, and a student dashboard to track progress, receive notifications, and submit content for approval.",
-    "image": "http://localhost:8888/portfolio/portfolio-frontend-v3/src/assets/images/career_center_laptop.png",
+    "image": "https://sethrcamp.com/assets/images/career_center_laptop.png",
     "clients": [
       {
         "name": "Ball State Career Center",
@@ -156,7 +156,7 @@
   },{
     "name": "BSU Multisite",
     "description": "The BSU Multisite is a platform developed to service Ball State faculty and staff by creating an easy-to-use website creation platform. As the Junior Project Manager for the project, my roles were to organize a team of over 20 students, communicate with the client, and insure a timely delivery of the platform to the users.",
-    "image": "http://localhost:8888/portfolio/portfolio-frontend-v3/src/assets/images/wordpress_logo.svg",
+    "image": "https://sethrcamp.com/assets/images/wordpress_logo.svg",
     "clients": [
       {
         "name": "Ball State Marketing and Communications",
@@ -174,7 +174,7 @@
   {
     "name": "IPR Android App",
     "description": "The Indiana Public Radio App is a native android app created to service the listeners of IPR. The app pulls in information about IPR's shows and allows the user to listen to IPR's livestream. The app is a great example of my work in data manipulation, object orientation, and adherence to usability standards. The IPR app is available for download in the Google Play store.  ",
-    "image": "http://localhost:8888/portfolio/portfolio-frontend-v3/src/assets/images/ipr_pixel_XL_square.png",
+    "image": "https://sethrcamp.com/assets/images/ipr_pixel_XL_square.png",
     "clients": [
       {
         "name": "Indiana Public Radio",
@@ -200,7 +200,7 @@
   },{
     "name": "Ball State Chirper App",
     "description": "The Ball State Chirper app is a React Native app that promotes school pride through the use of games, a fight song, custom stickers, and of coarse, the classic chirp button! The app was a revamp of the original, and is a good example of my work with React Native, specifically my work incorporating native android modules.",
-    "image": "http://localhost:8888/portfolio/portfolio-frontend-v3/src/assets/images/chirper_pixel_XL_square.png",
+    "image": "https://sethrcamp.com/assets/images/chirper_pixel_XL_square.png",
     "clients": [
       {
         "name": "Indiana Public Radio",
