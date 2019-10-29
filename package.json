@@ -2,7 +2,7 @@
   "name": "portfolio-frontend-v3",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sethrcamp.com/porfolio-frontend-v3/build",
+  "homepage": "https://sethrcamp.com/",
   "dependencies": {
     "axios": "^0.16.2",
     "moment": "^2.24.0",
