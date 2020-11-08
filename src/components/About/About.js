@@ -14,8 +14,8 @@ export default class About extends React.Component {
                     I am a web and software developer based in Indiana.
                     I have had years of experience with frontend and backend concepts,
                     including databases, custom API's, HTML, CSS, and frameworks
-                    such as AngularJS and React.js. I currently work at the Digital Corps
-                    on the Ball Statue University Campus and will be graduating with a
+                    such as AngularJS and React.js. I am currently looking for work
+                    and have graduated from Ball State University with an Honors
                     Bachelor's of Science in Computer Science degree,
                     with a Mathematics minor in Spring 2020.
                 </p>
