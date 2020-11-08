@@ -38,6 +38,32 @@
       }
     ],
     "hidden": 0
+  },
+  {
+    "name": "Ballotpedia Revenue Pages",
+    "description": "",
+    "image": "https://sethrcamp.com/assets/images/iw-logo-full-blue.svg",
+    "clients": [
+      {
+        "name": "Ballotpedia",
+        "link": "https://ballotpedia.org/Support/"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Relational Database"
+      },{
+        "name": "PostgreSQL"
+      },{
+        "name": "Stripe Integration"
+      },{
+        "name": "CSS"
+      },{
+        "name": "MediaWiki"
+      }
+    ],
+    "team": [],
+    "hidden": 0
   },{
     "name": "Equipment Checkout",
     "description": "The Equipment Checkout System was built for internal use at the Digital Corps. The System is comprised of five total repositories and is a full service solution that completely automated the once paper-only system, allowing students to create reservations, and check out various pieces of equipment. The system is also completely integrated with Slack, so that admins can review reservations, and users can be notified of any important events. The Equipment Checkout System is an excellent example of one of the full stack solutions I have worked on.<br><br> The system is comprised of three frontends all written in Angular.js. The Scheduler frontend allows users to create new reservations or update existing ones. By utilizing a drag and drop calendar, users can select a time, and add items to their reservation. The system keeps track of what items or kits are available at what times, and differentiates between personal and official reservations. The Scanner frontend is responsible for allowing users to scan out and scan in their items when there reservation time slot is open. Finally, the Admin Panel allows admins to create or modify kits and items, as well are search through reservations and monitor the overall state of the system.<br><br>   The backends of the system are split in two. The main backend is written in PHP and utilizes the Slim and PDO libraries. It is responsible for all of the complex logic required to determine eligibility of items, managing the state of all reservations, detecting late reservations, sending notifications and all other functionality for the daily operations of the system. The second backend, using Node.js and Swagger routing, is solely dedicated to managing Slack messaging.",
