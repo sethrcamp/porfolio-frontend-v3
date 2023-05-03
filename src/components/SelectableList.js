@@ -7,7 +7,7 @@ export default class SelectableList extends React.Component {
         return(
             <ul className="selectable-list">
                 {
-                    this.props.items.map((item, index) => {
+                    this.props.items.filter(item => !item.hidden).map((item, index) => {
                         return <li key={index}
                                    onClick={() => {
                                        this.props.setSelected(item);

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import PDF from '../../assets/Seth_Campbell_Resume.pdf';
+import PDF from '../../assets/Seth-Campbell-Resume.pdf';
 
 export default class Resume extends React.Component {
     render() {
