@@ -1,9 +1,80 @@
 [
   {
-    "name": "Development Team Member",
+    "name": "Software Engineer",
     "employer": [
       {
-        "name": "Ball State Digital Corps"
+        "name": "DeveloperTown"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Indianapolis, IN"
+      }
+    ],
+    "positions": [],
+    "skills": [
+      {
+        "name": "Frontend Web Development"
+      },{
+        "name": "React"
+      },{
+        "name": "Angular"
+      },{
+        "name": "MUI"
+      },{
+        "name": "i18n"
+      },{
+        "name": "a11y"
+      },{
+        "name": "jest"
+      },{
+        "name": "cypress"
+      },{
+        "name": "testing library"
+      },{
+        "name": "bootstrap"
+      },{
+        "name": "tailwind"
+      },{
+        "name": "strapi"
+      }
+    ],
+    "description": "DeveloperTown is a tech consultancy based in Broadripple in Indianapolis. DeveloperTown has been providing its services of web development, app development, design, data services, and systems auditing for over a decade.<br><br> At DeveloperTown, I was apart of the Human Factors team, specifically focusing on frontend web development with React and Angular. Over my time there, I had the pleasure of working with a variety of different clients such as Gainbridge, Endress and Hauser, Milliman, and Purdue.<br><br> Throughout my time at DeveloperTown, I honed several different skills in the pursuit of perfecting my craft. Some of the most notable are accessibility compliance, testing architecture, internationalization, automated workflows, and integrating into diverse interdisciplinary scrum teams.",
+    "image": "https://sethrcamp.com/assets/images/dt-logo.png"
+  },
+  {
+    "name": "Web Developer",
+    "employer": [
+      {
+        "name": "Ballotpedia"
+      }
+    ],
+    "locations": [
+      {
+        "name": "Remote"
+      }
+    ],
+    "positions": [],
+    "skills": [
+      {
+        "name": "Full Stack Web Development"
+      },{
+        "name": "MediaWiki"
+      },{
+        "name": "AWS Infrastructure"
+      },{
+        "name": "Advanced Databases and Querying"
+      }
+    ],
+    "description": "Ballotpedia is the American Encyclopedia of American Politics. It's mission is to inform and embolden voters with a wealth of non-bias information over anything and everything in the American political system.<br><br> Over the Summer, I integrated into the tech team, learning Ballotpedia's various systems in order to help debug and build new components of the site in preparation for Election Day 2020. One of the main achievements during my time with Ballotpedia was a complete redesign and overhaul of the section of the website dedicated to various options presented to users for donating to the non-profit. In a period of only two months, the new donation pages brought in over $60,000, which has been matched by a generous anonymous donor!",
+    "image": "https://sethrcamp.com/assets/images/ballotpedia_logo.jpeg",
+    "hidden": false
+  },
+  {
+    "name": "Developer and Project Manager",
+    "employer": [
+      {
+        "name": "Ball State University Digital Corps"
       }
     ],
     "locations": [
@@ -34,34 +105,8 @@
       }
     ],
     "description": "The Digital Corps is a student-based digital production group based out of Ball State University. The Corps is divided into six teams each lead by a faculty member: design, development, video, communication, user experience, and project management. These teams work together to create innovative solutions to our clients problems. Clients, while often through the University, extend outward into the community, and further into the state.<br><br> My role as a development team member was to facilitate development solutions to our clients problems. As an Apprentice, my goal was to sharpen my skills in development while working on projects. As a Specialist, I was able to hone my skills as a backend and API developers, along with mentoring my peers. As a Master, my goal is to lead The Corps as a whole. For the last two years, I have also been a Junior Project Manager, where I have been able to lead teams of students, and meet face to face with clients.",
-    "image": "https://sethrcamp.com/assets/images/corps-male-black.png"
-  },
-  {
-    "name": "Web Developer",
-    "employer": [
-      {
-        "name": "Ballotpedia"
-      }
-    ],
-    "locations": [
-      {
-        "name": "Remote"
-      }
-    ],
-    "positions": [],
-    "skills": [
-      {
-        "name": "Full Stack Web Development"
-      },{
-        "name": "MediaWiki"
-      },{
-        "name": "AWS Infrastructure"
-      },{
-        "name": "Advanced Databases and Querying"
-      }
-    ],
-    "description": "Ballotpedia is the American Encyclopedia of American Politics. It's mission is to inform and embolden voters with a wealth of non-bias information over anything and everything in the American political system.<br><br> Over the Summer, I integrated into the tech team, learning Ballotpedia's various systems in order to help debug and build new components of the site in preparation for Election Day 2020. One of the main achievements during my time with Ballotpedia was a complete redesign and overhaul of the section of the website dedicated to various options presented to users for donating to the non-profit. In a period of only two months, the new donation pages brought in over $60,000, which has been matched by a generous anonymous donor!",
-    "image": "https://sethrcamp.com/assets/images/ballotpedia_logo.jpeg"
+    "image": "https://sethrcamp.com/assets/images/corps-male-black.png",
+    "hidden": false
   },
   {
     "name": "Crew Member",
@@ -84,7 +129,8 @@
       }
     ],
     "description": "McDonald’s was my first employer. I spent a year at the local McDonald’s in my hometown. While there, I did every job that there was, aside from management. Aside from flipping burgers and dropping fries, I trained new crew members, and was involved in efforts to implement change in the workplace for better efficiency and customer satisfaction.",
-    "image": "https://sethrcamp.com/assets/images/McDonalds_Logo.png"
+    "image": "https://sethrcamp.com/assets/images/McDonalds_Logo.png",
+    "hidden": true
   },{
     "name": "Volunteer Cashier",
     "employer": [
@@ -106,6 +152,7 @@
       }
     ],
     "description": "For several years, during Summers and breaks, I would volunteer my time as a cashier at the IU Health Bloomington Hospital Gift shop. Over my time there, I volunteered over 500 hours. Typical activities for the job were cashiering, stocking, inventorying, and assisting customers.",
-    "image": "https://sethrcamp.com/assets/images/iuhealth.png"
+    "image": "https://sethrcamp.com/assets/images/iuhealth.png",
+    "hidden": true
   }
 ]
